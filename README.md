@@ -70,6 +70,14 @@ It was simply replicating the USB-Hub, which I made for my keebs and connecting 
 
 | Part | Purpose | Cost | Quantity | Total Cost | LCSC/JLCPCB Number | Link |
 | --- | --- | --- | --- | --- | --- | --- |
+| PCB |connect everything together | $2 | 1(5) | $2 | ~ | [JLCPCB](https://jlcpcb.com) |
+| Capacitors | reduce noise in the power | $0.0032 | 8 | $0.0256 | C15849, C14663 | [C15849](https://jlcpcb.com/partdetail/C15849) / [C14663](https://jlcpcb.com/partdetail/C14663) |
+| Resistors | prevent things go boom | $0.0016 | 8 | $0.0138 | C23186, C23206 | [C23186](https://jlcpcb.com/partdetail/C23186),[C23206](https://jlcpcb.com/partdetail/C23206) |
+| Toggle Switch | say which computer | $0.0579 | 1 | $0.0579 | C431541 | [JLCPCB](https://jlcpcb.com/partdetail/C431541)  |
+| USB Mux | change computer (USB) | $0.3720 | 1 | $0.3720 | C42407092 | [JLCPCB](https://jlcpcb.com/partdetail/C42407092)  |
+| USB Hub | bundle the downstream | $0.2258 | 1 | $0.2258 | C2684433 | [JLCPCB](https://jlcpcb.com/partdetail/C2684433)  |
+| UCB-C | usb connectors | $0.0740 | 4 | $0.2960 | C2765186 | [JLCPCB](https://jlcpcb.com/partdetail/C2765186)  |
+| USB-A | usb connectors big | $0.0636 | 2 | $0.1272 | C668591 | [JLCPCB](https://jlcpcb.com/partdetail/C668591)  |
 
 > the prices can change depending on the provider and time <br>
 > you can find the JLCPCB parts on [LCSC](https://lcsc.com/) too (exept the PCB) <br>
@@ -78,6 +86,11 @@ It was simply replicating the USB-Hub, which I made for my keebs and connecting 
 
 ## Contribute
 
+Want to add something?? Want a real KVM with Video? Found any bugs?? Feel free to open a PR (pull request) or an issue. 
+> the libraries are all imported with [easyeda2kicad](https://github.com/uPesy/easyeda2kicad.py)
+
 ---
 
 ## Thank you
+
+A huge thank you to my brain, who didnt die in this session. Another huge thank you to all the guys teaching me hardware. A last thank you to my laptop and kicad who dont like each other and decides to crash alot. 
